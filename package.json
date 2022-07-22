@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "hearthstone-clone",
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "engines": {
     "node": "16.15.1"
   },
