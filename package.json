@@ -4,8 +4,10 @@
   "description": "hearthstone-clone",
   "type": "module",
   "main": "./dist/index.js",
+  "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
-    "build": "tsc --build",
     "watch": "tsc -w",
     "dev": "nodemon --es-module-specifier-resolution=node dist/index.js",
     "start": "node --es-module-specifier-resolution=node dist/index.js"
