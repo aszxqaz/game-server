@@ -4,9 +4,6 @@
   "description": "hearthstone-clone",
   "type": "module",
   "main": "index.js",
-  "engines": {
-    "node": "16.15"
-  },
   "scripts": {
     "watch": "tsc -w",
     "dev": "nodemon --es-module-specifier-resolution=node dist/index.js",
