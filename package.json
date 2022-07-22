@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "hearthstone-clone",
   "type": "module",
+  "main": "./dist/index.js",
   "scripts": {
+    "build": "tsc --build",
     "watch": "tsc -w",
     "dev": "nodemon --es-module-specifier-resolution=node dist/index.js",
     "start": "node --es-module-specifier-resolution=node dist/index.js"
