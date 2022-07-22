@@ -21,6 +21,6 @@ app.get('/', (req, res) => {
   res.send('Hello World')
 })
 
-server.listen(4000, () => {
+server.listen(process.env.PORT || 4000, () => {
   console.log(`Server listening on port 4000`)
 })
